@@ -8,11 +8,13 @@ True
 True
 >>> f("()()")
 True
->>> f("[(#((_)(_)))@( )(((foo))(bar))!}")
+>>> f("](#((_)(_)))@( )(((foo))(bar))!{")
 True
 >>> f("((()")
 False
 >>> f("())")
+False
+>>> f(")(")
 False
 >>> f("(()){}()(]")
 False
@@ -20,7 +22,7 @@ False
 
 import doctest
 
-# REPLACE WITH ME WITH YOUR SOLUTION
+# TODO: REPLACE ME WITH YOUR SOLUTION
 
 if __name__ == "__main__":
     doctest.testmod()
