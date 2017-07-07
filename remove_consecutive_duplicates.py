@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-"""Write a function, f, which, given a list, removes consecutive duplicates
-from it.
+"""Write a function, f, which, given a list, removes consecutive
+duplicates from it.
 
 >>> f([1, 1, 2, 2, 2, 3, 4, 4])
 [1, 2, 3, 4]
