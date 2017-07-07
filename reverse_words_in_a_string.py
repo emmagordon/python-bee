@@ -11,7 +11,7 @@ remain unchanged. Any punctuation should be removed.
 "EuroPython Hello"
 >>> f("The cat sat on the mat.")
 "mat the on sat cat The
->>>f("So? much, punctuation:")
+>>> f("So? much, punctuation:")
 "punctuation much So"
 >>> f("a santa lived as a devil at nasa")
 "nasa at devil a as lived santa a"
