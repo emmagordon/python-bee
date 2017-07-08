@@ -2,21 +2,21 @@
 """Write a function, f, which returns True/False to indicate whether the
 parentheses in its input string are balanced.
 
->>> f("")
+>>> f("")  # empty string is balanced
 True
 >>> f("((()))")
 True
 >>> f("()()")
 True
->>> f("](#((_)(_)))@( )(((foo))(bar))!{")
+>>> f("](#((_)(_)))@( )(((foo))(bar))!{")  # other characters ignored
 True
 >>> f("((()")
 False
 >>> f("())")
 False
->>> f(")(")
+>>> f(")(")  # order matters
 False
->>> f("(()){}()(]")
+>>> f("(()){}()(]")  # only () count, not [] or {}
 False
 """
 

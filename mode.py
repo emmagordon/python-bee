@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 """Write a function, f, which, given a list of items, returns
-their mode (the value that appears most frequently). If there
-are multiple modes, you should return a list.
+their mode (the value that appears most frequently).
+
+If there are multiple modes, you should return a list of them.
+If the input list is empty, you should return None.
 
 You may not use the statistics module.
 
@@ -13,12 +15,12 @@ You may not use the statistics module.
 2
 >>> f([1])
 1
->>> f([])
-None
->>> f(["a", "a", "b"])
-"a"
->>> f(["a", "A", 1, 1.0, "b", "b"])
-"b"
+>>> f([]) is None
+True
+>>> f(['a', 'a', 'b'])
+'a'
+>>> f(['a', 'A', 'b', 'b'])
+'b'
 """
 
 import doctest

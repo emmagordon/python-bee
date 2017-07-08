@@ -8,7 +8,7 @@ True
 False
 >>> f("test", test="this")
 True
->>>f([1, 2])
+>>> f([1, 2])
 False
 >>> f(1, [1, 2], {}, "baz", 2.0, False, foo="bar", baz="FOO")
 True

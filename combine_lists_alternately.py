@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Write a function, f, which combines two list by taking alternate
+"""Write a function, f, which combines two lists by taking alternate
 elements from them. If the lists are different lengths, throw away
 the extra elements.
 
@@ -13,10 +13,10 @@ the extra elements.
 [1, 2]
 >>> f([1, 2, 3], [])
 []
->>> f([1.0, "mixed"], [{1: 2}, {3}])
-[1.0, {1: 2}, "mixed", {3}]
->>> f([1, 2, 3, 4, 5], ["one", "two", "three", "four", "five"])
-[1, "one", 2, "two", 3, "three", 4, "four", 5, "five"]
+>>> f([1.0, 'mixed'], [{1: 2}, (3,)])
+[1.0, {1: 2}, 'mixed', (3,)]
+>>> f([1, 2, 3, 4, 5], ['one', 'two', 'three', 'four', 'five'])
+[1, 'one', 2, 'two', 3, 'three', 4, 'four', 5, 'five']
 """
 
 import doctest
