@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Write a function, f, which, given a list of numbers, returns
+"""Write a function, f, which, given a list of items, returns
 their mode (the value that appears most frequently). If there
 are multiple modes, you should return a list.
 
@@ -24,6 +24,8 @@ None
 import doctest
 
 # TODO: REPLACE ME WITH YOUR SOLUTION
+
+
 
 if __name__ == "__main__":
     doctest.testmod()

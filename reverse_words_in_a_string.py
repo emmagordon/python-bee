@@ -19,7 +19,9 @@ remain unchanged. Any punctuation should be removed.
 
 import doctest
 
-# TODO: REPLACE ME WITH YOUR SOLUTION
+
+def f(s):
+    return " ".join(s.split()[::-1])
 
 if __name__ == "__main__":
     doctest.testmod()
