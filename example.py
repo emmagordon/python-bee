@@ -15,9 +15,7 @@ returns "Hello World".
 
 import doctest
 
-
-def f(*a, **k):
-    return "Hello World"
+# TODO: REPLACE ME WITH YOUR SOLUTION
 
 if __name__ == "__main__":
     doctest.testmod()

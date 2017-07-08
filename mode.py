@@ -25,7 +25,5 @@ import doctest
 
 # TODO: REPLACE ME WITH YOUR SOLUTION
 
-
-
 if __name__ == "__main__":
     doctest.testmod()
