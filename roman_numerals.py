@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """Write a function, f, which, given a positive integer, returns the
-value as a roman numeral (in lowercase).
+value as a roman numeral.
 
 where, in roman numerals:
 i = 1
@@ -15,16 +15,16 @@ should be 'iv' rather than 'iiii'.
 
 You can assume the number you have to convert is < 1000.
 
->>> f(1)
-'i'
->>> f(4)
-'iv'
->>> f(36)
-'xxxvi'
->>> f(140)
-'cxl'
->>> f(827)
-'dcccxxvii'
+>>> f(1) in ['i', 'I']
+True
+>>> f(4) in ['iv', 'IV']
+True
+>>> f(36) in ['xxxvi', 'XXXVI']
+True
+>>> f(140) in ['cxl', 'CXL']
+True
+>>> f(827) in ['dcccxxvii', 'DCCCXXVII']
+True
 """
 
 import doctest

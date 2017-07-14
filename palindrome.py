@@ -3,19 +3,19 @@
 True/False to indicate whether it is a palindrome (the same
 forwards as backwards).
 
->>> f("")
+>>> f('')
 True
->>> f("a")
+>>> f('a')
 True
->>> f("tacocat")
+>>> f('tacocat')
 True
->>> f("barbar")
+>>> f('barbar')
 False
->>> f("14641")
+>>> f('14641')
 True
->>> f("kAyaK")
+>>> f('kAyaK')
 False
->>> f("noon")
+>>> f('noon')
 True
 """
 

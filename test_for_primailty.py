@@ -3,10 +3,7 @@
 divisors other than 1 and itself.
 
 Write a function, f, which takes a positive integer as an argument and
-returns True/False to indicate whether or not it's prime.
-
-The longer your function takes to run, the less time you'll have to answer
-other questions, so be efficient if you can!
+returns True if it's prime, or False otherwise.
 
 >>> f(0)
 False

@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 """Write a function, f, which takes an input list and flattens it.
 
+Note the items in the input list may vary in their level of nesting.
+
 You may not use the itertools module.
 
 >>> f([[[]]])

@@ -2,11 +2,14 @@
 """Write a function, f, which takes a positive integer as input and
 returns True if it is 'perfect', or False otherwise.
 
-A number is 'perfect' if the sum if its divisors (factors) equal the
-number itself.
+A number is 'perfect' if the sum if its divisors (exclusing the number
+itself) equal the number itself.
+
+The smallest perfect number is 6. This has divisors 1, 2 and 3, where
+1 + 2 + 3 = 6.
 
 >>> f(1)
-True
+False
 >>> f(6)
 True
 >>> f(7)

@@ -16,7 +16,7 @@ note that factorial(0) = 1
 >>> f(7)
 5040
 >>> f(20)
-2.432902008e18
+2432902008176640000
 """
 
 import doctest
